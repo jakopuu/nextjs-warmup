@@ -6,7 +6,7 @@
 Next.js sisaldab valmis marsruutimist, serveripoolset renderdamist ja API-marsruute, nii et eraldi teeki (nt React Router) ega eraldi backendi pole vaja.
 
 **2. Miks vajab loendur `'use client'`?**
-`useState` ja klikisündmuste käsitlejad töötavad ainult brauseris, seega tuleb komponent märkida kliendikomponendiks.
+`useState` ja klikisündmuste käsitlejad töötavad ainult brauseris, seega tuleb komponent märkida Client Component-ideks.
 
 **3. Kus jookseb `app/api/message/route.js` kood?**
 Serveris (Node.js keskkonnas), mitte kunagi kasutaja brauseris.
